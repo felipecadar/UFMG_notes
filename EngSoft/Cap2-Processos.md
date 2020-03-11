@@ -129,7 +129,7 @@ PO não é chefe do dev
 
 #### Time Scrum 
 
-"Tamanho duas pizzas"
+>"Tamanho duas pizzas" -Jeff da Amazon
 
 - 1 PO
 - 3 a 9 Devs
@@ -140,4 +140,74 @@ PO não é chefe do dev
 Especialista de Scrum do time para garantir que o time está seguindo o processo corretamente.
 
 Ajuda a remover impedimentos não-técnicos. Pode pertencer a mais de um time.
+
+#### Time-box
+
+Tudo tem um prazo muito bem definido. Cada evento tem um time-box com a duração máxima definida.
+
+#### Conclusão de Histórias (Done Criteria)
+
+É importante considerar qualidade externa e interna.
+- Qualidade externa:
+    - Testes de aceitação (Funcionais)
+    - Testes não-funcionais (Desempenho/Usabilidade)
+
+- Qualidade Interna
+    - Testes de unidade
+    - Revisão de código
+
+#### Scrum Board
+
+Backlog|Todo|Doing|Testing|Done
+-------|----|-----|-------|-----
+bla|bla2 |bla3 | bla4 | bla5
+
+
+#### Burndown chart
+
+Gráfico com a quantidade de horas restante para o fim do sprint
+
+#### Story points
+
+Unidade para compar o tamnho das histórias. A escala de ser não linear. É comum usar fibonatti
+
+# Kanban
+
+Origem na década de 50 no japão -> Taylorismo 
+
+Kanban = "cartão visual"
+
+#### Kanban vs Scrum
+
+- Kanban é mais simples
+- Não tem sprints
+- Não precisa de papeis e eventos
+
+
+#### Quadro Kanban 
+
+|Backlog|Especificação|Implementação|Revisão
+|-------|-------------|-------------|-------
+|  | Pendente/Concluido|Pendente/Concluido|Pendente/Concluido
+
+Especificação significa quebrar um cartão em várias tarefas
+
+Deve se especificar o número máximo de taredas em cada passo, o WIP (work in progress).
+
+Como devemos definir o limite WIP ? De forma empírica, baseada em experiência ou usando a Lei de Little
+
+~~~
+> Lei de Little
+WIP = TP * LT
+TP = Througput (Vazao) é o número de tarefas concluidas por dia no passo
+LT = Lead Time é o tempo médio que a tarefa demora para ser concluída,incluindo o tempo na 2a subcoluna
+~~~
+
+# Comentários finais
+
+Xp é importante pelas práticas de programação propostas
+
+Scrum gera uma "fadiga" a médio prazo
+
+Kanban é mais adequado para times mais maduros, talvez seja bom começar com Scrum e mudar para Kanban quando o time sentir que não precisa de tantas regras para o desenvolvimento.
 
