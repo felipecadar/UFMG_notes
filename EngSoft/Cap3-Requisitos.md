@@ -164,3 +164,36 @@ _______________
 
 ## 3. Produto Mínimo Viável (MVP)
 
+Conceito muito popular entre Startups. 
+
+MPV é o produto mínimo viável e tem como objetivo testar a ideia core de um software o mais rápido possivel para saber se podemos avançar com o desenvolvimento ou não.
+
+O livro Lean Startup propõe um método para construção e validação de MVPs que consiste no ciclo: construir, medir e aprender. Isso é o **aprendizado validade**
+
+<image src=https://engsoftmoderna.info/figs/cap3/lean.svg>
+
+Esse ciclo pode resultar em 3 decisões:
+
+1. Ainda são necessários mais testes com o MVP, melhorando alguns fatores, como os requisitos/interface com os usuários
+
+2. O MVP foi bem sucedido e achamos um mercado para o sistema, então é hora de investir mais recursos.
+
+3. O MVP falhou e temos que decidir entre:
+   1. Pivotar: Abandonar a visão original e tentar um novo MVP
+   2. Desistir
+
+
+Para **medir** um MVP devemos tomar cuidado para não usar **métricas de vaidade**, que só fazem bem para o ego, como o pageviews de um site de ecommerce. Devemos usar **métricas acionáveis**, que representam melhor o sucesso do MVP, como a porcentagem de visitantes de fecham a compra em um site de ecommerce.
+
+Para avaliar MVPs que incluem vendas de produtos ou serviços, costuma-se usar **métricas de funil**, que capturam o nível de interação dos usuários com um sistema. Um funil pode incluir as seguintes métricas:
+
+1. Aquisição: número de clientes que visitaram o seu sistema.
+2. Ativação: número de clientes que criaram uma conta no sistema.
+3. Retenção: clientes que retornaram ao sistema, após criarem uma conta.
+4. Receita: número de clientes que fizeram uma compra.
+5. Recomendação: clientes que recomendaram o sistema para terceiros.
+
+____________________________
+
+## 4. Testes A/B
+
