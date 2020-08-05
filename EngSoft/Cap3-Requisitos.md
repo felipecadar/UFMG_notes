@@ -197,3 +197,16 @@ ____________________________
 
 ## 4. Testes A/B
 
+Testes A/B são usados para escolher entre duas versões de um sistema. As duas versões são idênticas, porem uma possui o requisito A e a outra o B, sendo que eles são mutuamente exclusivos.
+
+Para fazer o teste liberamos ambas versões para os usuários, escolhendo randomicamente quem usa qual versão, e então usamos uma métrica para analizar qual teve mais sucesso. Essa métrica é genericamente chamada de **taxa de conversão**.
+
+Uma questão fundamental em testes A/B é a determinação do tamanho da amostra. Para fazer esse calculo usamos ferramentas como a [Optimizely](https://www.optimizely.com/sample-size-calculator/)
+
+**Posso testar mais de duas variações?** 
+
+Sim, a metodologia que explicamos adapta-se a mais de dois testes. Basta dividir os acessos em três grupos aleatórios, por exemplo, se quiser testar três versões de um sistema. Esses testes, com mais de um tratamento, são chamados de Testes A/B/n.
+
+**O que é um teste A/A?** 
+
+É um teste no qual os dois grupos, controle e tratamento, executam a mesma versão do sistema. Logo, assumindo-se uma confiança estatística de 95%, eles deveriam quase sempre falhar, pois a versão A não pode ser melhor do que ela mesma.
