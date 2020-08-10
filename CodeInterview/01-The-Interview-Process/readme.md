@@ -1,4 +1,0 @@
-# The Interview Process
-
-## Intro
-
