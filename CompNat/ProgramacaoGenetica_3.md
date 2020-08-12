@@ -85,3 +85,7 @@ Críticas:
    1. Trocamos bits que não fazem referência a gramática
    2. wrap intensifica o efeito do cruzamento
 2. Não existe localidade nos operadores.
+
+# Dúvidas:
+
+Como o Wrapping funciona
