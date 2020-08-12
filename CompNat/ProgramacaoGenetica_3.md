@@ -89,3 +89,17 @@ Críticas:
 # Dúvidas:
 
 Como o Wrapping funciona
+
+# Questoes erradas:
+
+## 1
+
+A programação genética baseada em gramáticas com representação por árvore é idêntica à programação genética padrão, sendo necessário apenas substituir os conjuntos de terminais e funções por uma gramática.
+
+**Resposta**
+
+Os operadores de mutação e cruzamento também devem ser modificados para garantir que os indivíduos gerados respeitem as regras de produção da gramática.
+
+A resposta correta é 'Falso'.
+
+
