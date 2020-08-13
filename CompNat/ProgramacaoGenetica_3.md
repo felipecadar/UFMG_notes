@@ -14,7 +14,7 @@ Cada nó possui um tipo de entrada e saída.
 Função | Tipo Entrada | Tipo Saída
 -------|:--------------:|------------ 
 +,-,*,/|(real, real)  | real
->, <   |(real, real)  | bool
+\>, <   |(real, real)  | bool
 AND, OR|(bool, bool)  | bool
 
 Devos respeitar essses tipos nas operações.
