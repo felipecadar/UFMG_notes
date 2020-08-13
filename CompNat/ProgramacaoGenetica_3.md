@@ -48,7 +48,7 @@ Tenta aproxima o mapeamento do Genótipo pro Fenótico a um processo biológico.
 
 A primeira transcição possui degeneração genética, isso significa que mais de uma **códon** podem gerar a mesma regra da gramática.
 
-Códon é um trecho do genótipo que vai ser transcito para uma regra.
+Códon é um trecho do genótipo que vai ser transcito para uma regra. Derivamos a árvore em profundidade
 
 Gramática:
 ```
@@ -88,7 +88,7 @@ Críticas:
 
 # Dúvidas:
 
-Como o Wrapping funciona
+Como o Wrapping funciona: Quando o vetor termina mas ainda temos coisas pra derivar
 
 # Questoes erradas:
 
