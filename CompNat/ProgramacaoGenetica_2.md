@@ -46,3 +46,24 @@ descrito é sempre um para um
 2. GP esse mapeamento é de muitos para um
    1. Em regressão simbólica, a mesma função pode ser
 descrita por diversos indivíduos 
+
+
+# Quiz
+
+## 1
+
+Sobre algoritmos de programação genética, é incorreto afirmar que:
+
+Escolha uma:
+- Nenhuma das anteriores.
+- A diversidade da inicialização da população é garantida pelo método full.
+- Diferem dos algoritmos evolucionários tradicionais por terem um poder de expressividade muito maior, garantido por um conjunto de funções e terminais.
+- A definição dos terminais deve seguir as propriedade de suficiência e parcimônia, que são conflitantes.
+- Utiliza os mesmos métodos de seleção já discutidos, como seleção por roleta, ranking e torneio. 
+
+Feedback
+
+Sua resposta está incorreta.
+
+A resposta correta é: A diversidade da inicialização da população é garantida pelo método full..
+

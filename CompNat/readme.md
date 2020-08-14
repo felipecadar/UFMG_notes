@@ -15,6 +15,10 @@ Professora Gisele L. Pappa
 [Programação Genética Baseada em Gramáticas parte 2](ProgramacaoGenetica_4.md)
 
 # Metodologia de Experimentação, Parâmetros e Análise de Resultados
+
+[Experimentação, Parametrização e Análise de Algoritmos Bio-inspirados parte 1](Experimentacao_1.md)
+[Experimentação, Parametrização e Análise de Algoritmos Bio-inspirados parte 2](Experimentacao_2.md)
+
 ...
 # Tópicos em Computação Evolucionária
 ...
