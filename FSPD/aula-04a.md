@@ -4,7 +4,15 @@ Muitas vezes o acesso a uma seção crítica só pode acontecer se certas condi�
 
 Pensando em um programa com uma **fila circular**, **consumidores** e **produtores**, o nosso mutex simples não é suficiente.
 
-Fila:
+
+<table>
+<tr>
+    <th>Fila</th>
+    <th>Produtor</th>
+    <th>Consumidor</th>
+</tr>
+<tr>
+<td>
 
 ```C
 #define N 1000
@@ -16,7 +24,8 @@ int out = 0;
 int count = 0;
 ```
 
-Produtor:
+</td>
+<td>
 
 ```C
 int nextProduced = /*...*/;
@@ -27,8 +36,8 @@ buffer[in] = nextProduced;
 in = (in + 1) % N;
 count++;
 ```
-
-Consumidor:
+</td>
+<td>
 
 ```C
 int nextConsumed;
@@ -39,7 +48,9 @@ nextConsumed = buffer[out];
 out = (out + 1) % N;
 count--;
 ```
-
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
@@ -66,4 +77,4 @@ mutex_unlock( &mutex)
 
 </td>
 </tr>
-</table
+</table>
