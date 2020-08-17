@@ -22,6 +22,7 @@ Produtor:
 int nextProduced = /*...*/;
 while (count==N)
     /* Espera ocupada */;
+
 buffer[in] = nextProduced;
 in = (in + 1) % N;
 count++;
@@ -38,3 +39,31 @@ nextConsumed = buffer[out];
 out = (out + 1) % N;
 count--;
 ```
+
+
+<table>
+<tr>
+<td>
+
+Para um sistema paralelo temos que resolver as seções críticas, mas só incluir o loop com mutex não funciona
+
+Nessa situação, se eu entrar no mutex com a fila cheia, ninguém mais vai conseguir mudar minha variáveis e eu nunca vou dair da espera ocupada.
+
+</td>
+<td>
+
+```C
+int nextProduced = /*...*/;
+mutex_lock( &mutex)
+while (count==N)
+    /* Espera ocupada */;
+
+buffer[in] = nextProduced;
+in = (in + 1) % N;
+count++;
+mutex_unlock( &mutex)
+```
+
+</td>
+</tr>
+</table
