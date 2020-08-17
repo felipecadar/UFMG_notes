@@ -1,4 +1,4 @@
-# Variáveis de Condição
+# Variáveis de Condição - [Aula no youtube](https://www.youtube.com/watch?v=uPpCVRN1qL8&feature=youtu.be)
 
 Muitas vezes o acesso a uma seção crítica só pode acontecer se certas condições forem etendiadas.
 
@@ -136,5 +136,52 @@ mutex_unlock( &mutex)
 </tr>
 
 </table>
+
+
+## Condiçoes em python
+
+```python
+import threading
+
+condition = threading.Condition([lock])
+condition.wait()
+condition.notify()
+
+###### Obs: Condition pode agir como trava se nenhuma for passada
+condition.acquire()
+condition.release()
+```
+
+## Produtor/Consumudor em Python
+
+```python
+import threading
+mutex = threading.Lock()
+not_empty = threading.Condition(mutex)
+not_full = threading.Condition(mutex)
+
+### Produtor
+mutex.acquire()
+while(count == N):
+    not_full.wait()
+
+buffer[in] = nextProduced
+in = (in + 1) % N
+count += 1
+not_empty.notify()
+mutex.release()
+
+
+### Consumidor
+mutex.acquire()
+while(count == 0):
+    not_empty.wait()
+
+nextConsumed = buffer[out]
+out = (out + 1) % N
+count -= 1
+not_full.notify()
+mutex.release()
+```
 
 
