@@ -53,7 +53,6 @@ count--;
 </table>
 
 <table>
-<tr>
 <td>
 
 Para um sistema paralelo temos que resolver as seções críticas, mas só incluir o loop com mutex não funciona
@@ -76,5 +75,4 @@ mutex_unlock( &mutex)
 ```
 
 </td>
-</tr>
 </table>
