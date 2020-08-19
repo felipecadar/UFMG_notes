@@ -1,6 +1,6 @@
-# Mitos sobre Libras e o surdo
+# 1. Mitos sobre Libras e o surdo
 
-## Os surdos brasileiros usam a linguagem brasileira de sinais para se comunicar 
+## 1.1. Os surdos brasileiros usam a linguagem brasileira de sinais para se comunicar 
 
 O correto é LÍNGUA e não linguagem.
 
@@ -8,44 +8,44 @@ Temos duas modalidades de línguas:
 1. Línguas orais auditivas
 2. Línguas espaço-visuais
 
-## O Alfabeto manual é a lingua de sinais.
+## 1.2. O Alfabeto manual é a lingua de sinais.
 
 O alfabeto manual é usado apenas para algumas ocasiões, como no momento de dizer um nome.
 
-## Línguas de sinais são limitadas e só se referem ao concreto
+## 1.3. Línguas de sinais são limitadas e só se referem ao concreto
 
 Não, funciona muito bem como qualuqer outra língua falada.
 
-## Todo surdo é mudo
+## 1.4. Todo surdo é mudo
 
 Não, mas muitos não tem acesso a educação necessária para treinar a fala.
 
-## O surdo tem pensamento concreto
+## 1.5. O surdo tem pensamento concreto
 
 Precisamos do suporte da língua para desenvolvermos determinados tipos de pensamentos. Se o surdo não tiver acesso a uma educação e ensine língua de sinais na infância, ele sofrerá com isso.
 
-## Os surdos captam 100% do que e falado através de leitura labial
+## 1.6. Os surdos captam 100% do que e falado através de leitura labial
 
 Não, cerca de 30% a 40%.
 
-## Existe uma língua de sinais universal
+## 1.7. Existe uma língua de sinais universal
 
 Não, as várias que existe no mundo são diferentes umas das outras.
 
-## Língua de sinais são similares a mímica
+## 1.8. Língua de sinais são similares a mímica
 
 Não, elas tem uma estrutura gramatical complexa.
 
-## Línguas de sinais são baseadas em línguas orais
+## 1.9. Línguas de sinais são baseadas em línguas orais
 
 Não, são línguas independentes. Até a forma de marcar tempo entre Libras e Português são diferentes.
 
 
 _________________________________
 
-# A LIBRAS COMO LÍNGUA NATURAL
+# 2. A LIBRAS COMO LÍNGUA NATURAL
 
-## Linguagem e Língua
+## 2.1. Linguagem e Língua
 
 Sintetizando, linguagem seria a capacidade do indivíduo de interagir com o mundo exterior, de expressar seus sentimentos e intenções, e de comunicar-se com seus semelhantes. A língua seria então a ferramenta usada pela comunidade nessa forma de comunicação. É através da linguagem que o indivíduo é capaz de estruturar seu pensamento.
 
@@ -56,7 +56,7 @@ O termo linguagem ainda faz referência à capacidade que o ser humano tem de ad
 4. Nível semântico: refere-se ao significado das palavras, das sentenças e dos textos;
 5. Nível pragmático: refere-se ao uso que se faz da língua num determinado contexto. 
 
-## As pesquisas sobre línguas de sinais
+## 2.2. As pesquisas sobre línguas de sinais
 
 William Stokoe foi o primeiro linguista a pesquisar a organização fonológica, as partes constituintes dos sinais da Língua de Sinais Americana – ASL
 
@@ -64,7 +64,7 @@ No Brasil, as pesquisas em língua de sinais começaram a se expandir na década
 
 Hoje, sabe-se que a Língua de Sinais Brasileira é uma língua única, com variações dialetais, ou “sotaques” distintos, tanto em relação à região onde é “falada” (em diferentes estados e municípios) quanto em relação às diferenças entre grupos menores (variações entre faixas etárias ou grupos específicos, como grupos religiosos, por exemplo), assim como acontece também com o Português ou outras línguas orais faladas em países extensos como o Brasil
 
-## Relação entre línguas de sinais e surdez 
+## 2.3. Relação entre línguas de sinais e surdez 
 
 O homem não possui nenhum órgão especializado na produção de sons, mas com o desenvolvimento da linguagem falada, alguns órgãos da respiração passaram a exercer a função na emissão de sons. Sendo assim, o canal oral tornou-se o privilegiado na expressão da linguagem.
 
