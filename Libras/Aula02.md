@@ -16,9 +16,12 @@ Heinicke é considerado o fundador do oralismo e de uma metodologia que ficou co
 
 As decisões tomadas no II Congresso Internacional em Milão levaram a que a linguagem gestual fosse praticamente banida como forma de comunicação a ser utilizada por pessoas surdas no trabalho educacional. 
 
-Parei em : 
+A primeira caracterização de uma língua de sinais usada entre pessoas surdas se encontra nos escritos do abade De L'Epée e só voltaram a ser estudadas em 1978 com Willian Stokoe.
 
-Na década de 1960, começaram a surgir estudos sobre as línguas de sinais utilizadas pelas
-comunidades surdas. Apesar da proibição dos oralistas no uso de gestos e sinais, raramente
-se encontrava uma escola ou instituição para surdos que não tivesse desenvolvido, às
-margens do sistema, um modo próprio de comunicação através dos sinais
+Stokoe mostrou que um sinal da ASL é composto pelo lugar no espaço onde as mãos se movem, a configuração da(s) mão(s) ao realizar o sinal e o movimento da(s) mão(s) ao realizar o sinal. Ele mostrou também que as língias de sinais eram verdadeiras línguas.
+
+Nos anos 70 surgiu a tendência Comunicação Total, que tentava fornecer a maior quantidade possível de inputs para a criança surda conseguir se comunincar bem e contruir seu mundo interno. Esse método não foi muito bem sucedido já que não apresentou bom resultados, os surdos continuavam com problemas na leitura e escrita, não conseguiam expressar bem sentimentos e ideias fora do contexto escolar. Apesar de estarem disponíveis, eles não usavam os sinais como uma língua em sí, apenas como um auxílio para a língua oral.
+
+A comunicação total trouxe mais atenção aos sinais, que se mostraram muito promissores. Apartir daí começaram a considerar os sinais como uma língua separada da oral, e que não se deveria misturar os dois. Esse modelo bilíngue de ensino se diferenciava do Oralismo pois colocava como mais importante o desenvolvimento do canal visogestual.
+
+A aplicação prática do modelo de  educação bilíngüe não é simples e exige cuidados especiais, formação de profissionais habilitados, diferentes instituições envolvidas com tais questões etc. Os projetos já realizados em diversas partes do mundo (como Suécia, Estados Unidos, Venezuela e Uruguai) têm princípios filosóficos semelhantes,  mas  se  diferenciam  em  alguns  aspectos  metodológicos.  Para  alguns,  é necessária  a  participação  de  professores  surdos,  o  que  nem  sempre é  possível  conseguir. Quando  se  recorre  a  professores  ouvintes,  nem  sempre  sua  competência em  língua  de sinais   é   suficiente,   comprometendo   significativamente   o   processo   de   aprendizagem. 
