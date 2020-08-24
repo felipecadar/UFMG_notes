@@ -204,15 +204,14 @@ task filosofo(){
 
 # Solução
 
-```C
-int N = 6; // N Filosofos e Hashis
-semaphore hashi[N](1); // todos iniciam com 1
-```
 
 <table>
 <td>
-
 ```C
+int N = 6; // N Filosofos e Hashis
+semaphore hashi[N](1); // todos iniciam com 1
+
+
 task filosofo(int i){ // filosofo i (entre 0 e N-1)
     while(1){
         meditar();
