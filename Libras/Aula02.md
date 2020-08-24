@@ -25,3 +25,12 @@ Nos anos 70 surgiu a tendência Comunicação Total, que tentava fornecer a maio
 A comunicação total trouxe mais atenção aos sinais, que se mostraram muito promissores. Apartir daí começaram a considerar os sinais como uma língua separada da oral, e que não se deveria misturar os dois. Esse modelo bilíngue de ensino se diferenciava do Oralismo pois colocava como mais importante o desenvolvimento do canal visogestual.
 
 A aplicação prática do modelo de  educação bilíngüe não é simples e exige cuidados especiais, formação de profissionais habilitados, diferentes instituições envolvidas com tais questões etc. Os projetos já realizados em diversas partes do mundo (como Suécia, Estados Unidos, Venezuela e Uruguai) têm princípios filosóficos semelhantes,  mas  se  diferenciam  em  alguns  aspectos  metodológicos.  Para  alguns,  é necessária  a  participação  de  professores  surdos,  o  que  nem  sempre é  possível  conseguir. Quando  se  recorre  a  professores  ouvintes,  nem  sempre  sua  competência em  língua  de sinais   é   suficiente,   comprometendo   significativamente   o   processo   de   aprendizagem. 
+
+________________________
+
+# Questoes erradas
+
+1. Somente com a difusão da educação bilíngue, houve a participação de professores surdos na educação de pessoas surdas.
+   1. A resposta correta é 'Falso'.
+2. Somente a partir do século XX, as línguas de sinais foram utilizadas na educação de pessoas surdas.
+   1. A resposta correta é 'Falso'.
