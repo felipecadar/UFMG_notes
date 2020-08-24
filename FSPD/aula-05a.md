@@ -207,6 +207,7 @@ task filosofo(){
 
 <table>
 <td>
+
 ```C
 int N = 6; // N Filosofos e Hashis
 semaphore hashi[N](1); // todos iniciam com 1
