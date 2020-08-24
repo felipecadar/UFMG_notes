@@ -116,3 +116,49 @@ task selvagem(){
 }
 ```
 
+## Solução
+
+```C
+int porcoes = 0; // Porçoes no caldeirao
+mutex mc; // controla acesso ao caldeirao
+semaphore cald_vazio(0), // indica caldeirao vazio 
+          cald_cheio(0); // indica caldeirao cheio
+```
+
+<table>
+<td>
+
+```C
+task selvagem(){
+    while(1){
+        lock(mc); // tenta acessar o caldeirao
+        if (porcoes == 0){ // caldeirao vazio ?
+            up(cald_vazio); // avisa que o caldeirao esvaziou
+            down(cald_cheio); // espera ficar cheio
+        } // aqui o caldeirao não está vazio
+        porcoes--; // serve a porção
+        unlock(mc); // libera o caldeirao
+        comer()
+    }
+}
+```
+
+</td>
+
+<td>
+
+```C
+task cozinheiro(){
+    while(1){
+        down(cald_vazio); // aguarda o caldeirão esvaziar
+        porcoes += M; //enche o caldeirão com M porções
+        up(cald_cheio); // avisa que encheu o caldeirão
+                        // So precisa de 1 up pois só tem 1 selvagem 
+                           // servindo de cada vez
+    }
+}
+```
+
+</td>
+
+</table>
