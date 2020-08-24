@@ -176,3 +176,61 @@ task cozinheiro(){
 
 </table>
 
+# Barbeiro Dorminhoco
+
+Temos uma barbearia com certo número de cadeiras e um barbeiro que dorme quanto não tem ninguém para cortar o cabelo. Quando existe um clinente, o barbeiro é acordado. Se alguem chegar na barbearia com ela cheia, ele vai embora para voltar uma outra hora.
+
+## Soluçoes
+
+1. Tanenbaum, Sistemas Operacionais Avançados
+2. Wikipedia
+
+# Jantar dos filósofos
+
+Talvez o mais famoso. Temos N filósofos sentados em uma mesa redonda. Cada filósofo pensa durante um tempo, fica com fome e come. Para comer ele precisa pegar os talheres da direita e da esquerda, um de cada vez, e depois de comer ele solta os dois. Só existe um talher entre cada filósofo
+
+```C
+task filosofo(){
+    while(1){
+        meditar();
+        pegar_talher_direita();
+        pegar_talher_esquerda();
+        comer();
+        soltar_talher_direita();
+        soltar_talher_esquerda();
+    }
+}
+```
+
+# Solução
+
+```C
+int N = 6; // N Filosofos e Hashis
+semaphore hashi[N](1); // todos iniciam com 1
+```
+
+<table>
+<td>
+
+```C
+task filosofo(int i){ // filosofo i (entre 0 e N-1)
+    while(1){
+        meditar();
+        down(hashi[i]);
+        down(hashi[(i+1) % N]);  // Estrutura circular
+        comer();
+        up(hashi[i]);
+        up(hashi[(i+1) % N]);  // Estrutura circular
+    }
+}
+```
+
+</td>
+<td>
+
+**Problema**: Todos podem pegar o hashi da direita ao mesmo tempo e travar todos os processos para sempre. Isso é o **Deadlock**
+
+</td>
+
+</table>
+
