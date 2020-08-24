@@ -38,6 +38,7 @@ Solução Simplista: Usar um mutex global. O Problema é não podemos ler em par
 Solução mais tradicional:
 
 <table>
+<tr>
 <td>
 
 ```C
@@ -47,6 +48,11 @@ mutex mcount; // controla o acesso ao contador
 ```
 
 </td>
+
+</tr>
+<tr>
+
+
 <td>
 
 
@@ -93,6 +99,7 @@ task leitor(){
 </td>
 
 
+</tr>
 
 
 </table>
