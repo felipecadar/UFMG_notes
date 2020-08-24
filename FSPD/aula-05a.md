@@ -37,24 +37,14 @@ Solução Simplista: Usar um mutex global. O Problema é não podemos ler em par
 
 Solução mais tradicional:
 
-<table>
-<tr>
-<td>
-
 ```C
 mutex marea; // controla o acesso à área
 int num_leitores = 0; // número de leitores acessando a área
 mutex mcount; // controla o acesso ao contador
 ```
 
-</td>
-
-</tr>
-<tr>
-
-
+<table>
 <td>
-
 
 ```C
 task escritor() {
@@ -97,13 +87,32 @@ task leitor(){
 ```
 
 </td>
-
-
-</tr>
-
-
 </table>
 
 Essa solução não garante que os escritores vão conseguir entrar. Se tivermos infinitos leitores entrando, eles travarão no mutex de area para sempre. (starvation)
 
 # Jantar dos selvagens
+
+Temos uma estrutura compartilhada, o caldeirão, que tem capacidade N. O cozinheiro enche o caldeirão e vai dormir. Cada selvagem se serve separadamente. Se o caldeirão estiver vazio, o selvagem acorda o cozinheiro.
+
+```C
+task cozinheiro(){
+    while (1){
+        encher_caldeirao();
+        dormir();
+    }
+}
+```
+
+```C
+
+task selvagem(){
+    while(1){
+        if(caldeirão_vazio)
+            acordar_cozinheiro()
+        servir();
+        comer();
+    }
+}
+```
+
