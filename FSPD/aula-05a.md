@@ -95,6 +95,9 @@ Essa solução não garante que os escritores vão conseguir entrar. Se tivermos
 
 Temos uma estrutura compartilhada, o caldeirão, que tem capacidade N. O cozinheiro enche o caldeirão e vai dormir. Cada selvagem se serve separadamente. Se o caldeirão estiver vazio, o selvagem acorda o cozinheiro.
 
+<table>
+<td>
+
 ```C
 task cozinheiro(){
     while (1){
@@ -103,6 +106,10 @@ task cozinheiro(){
     }
 }
 ```
+
+</td>
+
+<td>
 
 ```C
 
@@ -115,6 +122,12 @@ task selvagem(){
     }
 }
 ```
+
+</td>
+
+</table>
+
+
 
 ## Solução
 
