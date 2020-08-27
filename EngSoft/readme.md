@@ -7,6 +7,7 @@ Professor: Marco Tulio Valente
 
 [Cap3 - Requisitos](Cap3-Requisitos.md)
 [Cap4 - Modelos](Cap4-Modelos.md)
+[Cap5 - Modelos](Cap05.md)
 
 ## Exercícios
 
