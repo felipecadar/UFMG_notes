@@ -1,4 +1,4 @@
-<h1>Séries Temporais</h1>
+<h1>Séries Temporais 01</h1>
 
 #  1. Intro
 
@@ -91,7 +91,7 @@ Podemos tentar resolver o problema da memória deixando uma trilha nos pontos, m
 - Quando os dados não são igualmente espaçados não devemos conecta-los por linhas. Isso pode trazer uma falsa estabilidade.
 
 
-# Referencias
+# 9. Referencias
 
 1. [Cycloplots](https://www.perceptualedge.com/articles/guests/intro_to_cycle_plots.pdf)
 2. [COVID data](https://www.worldometers.info/coronavirus/country/brazil/)
