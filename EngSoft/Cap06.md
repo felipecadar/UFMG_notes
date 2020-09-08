@@ -203,19 +203,330 @@ Além de ajudar na implementação de caches, proxies podem ser usados para impl
 3. Controlar o acesso de diversos clientes a um objeto base.
 
 # Adaptador
-**Contexto**:
+**Contexto**: Suponha um sistema que tenha que controlar projetores multimídia. Para isso ele deve instanciar objetos de classes fornecidas pelos fabricantes de cada projetor
+
+```Java
+class ProjetorSamsung {
+  public void turnOn() { ... }
+  ...
+}
+
+class ProjetorLG {
+  public void enable(int timer) { ... }
+  ...
+}
+```
+**Problema**: No sistema queremos ter uma classe única "projetor" com um método "liga" padrão.
+**Solução**: Adaptador ou Wrapper. Recomenda-se usar esse padrão quando temos que converter a interface de uma classe para outra interface, esperada pelos seus clientes
+```Java
+class AdaptadorProjetorSamsung implements Projetor {
+
+   private ProjetorSamsung projetor;
+
+   AdaptadorProjetorSamsung (ProjetorSamsung projetor) {
+     this.projetor = projetor;
+   }
+
+   public void liga() {
+     projetor.turnOn();
+   }
+}
+```
+
+# Fachada
+**Contexto**: Imagine que X é uma linguagem para consulta a dados, semelhante a SQL. Para executar programas X, a partir de um código em Java, os seguintes passos são necessários:
+```Java
+Scanner s = new Scanner("prog1.x");
+Parser p = new Parser(s);
+AST ast = p.parse();
+CodeGenerator code = new CodeGenerator(ast);
+code.eval()
+```
+**Problema**:O código acima requer conhecimento de classes internas do interpretador de X. Logo, os usuários frequentemente pedem uma interface mais simples para chamar o interpretador da linguagem X.
+**Solução**: Uma Fachada é uma classe que oferece uma interface mais simples para um sistema. 
+```Java
+class InterpretadorX {
+
+  private String arq;
+
+  InterpretadorX(arq) {
+    this.arq = arq;
+  }
+
+  void eval() {
+    Scanner s = new Scanner(arq);
+    Parser p = new Parser(s);
+    AST ast = p.parse();
+    CodeGenerator code = new CodeGenerator(ast);
+    code.eval();
+  }
+}
+```
+
+# Decorador
+**Contexto**:Suponha que as classes TCPChannel e UDPChannel implementam uma interface Channel
+```Java
+interface Channel {
+   void send(String msg);
+   String receive();
+}
+
+class TCPChannel implements Channel {
+   ...
+}
+
+class UDPChannel implements Channel {
+   ...
+}
+```
+**Problema**: Se quisermos adicionar funcionalidades diferentes para diferentes clientes fica inviável o uso de heranças pela explosão combinatória do número de classes.
+**Solução**: Em vez de usar herança, usa-se composição para adicionar tais funcionalidades dinamicamente nas classes base. Portanto, Decorador é um exemplo de aplicação do princípio de projeto "Prefira Composição a Herança"
+```Java
+channel = new ZipChannel(new TCPChannel());
+// TCPChannel que compacte/descompacte dados 
+
+channel = new BufferChannel(new TCPChannel());
+// TCPChannel com um buffer associado
+
+channel = new BufferChannel(new UDPChannel());
+// UDPChannel com um buffer associado
+
+channel = new BufferChannel(new ZipChannel(new TCPChannel()));
+// TCPChannel com compactação e um buffer associado
+```
+
+E como esses decoradores funcionam ?
+
+```Java
+class ChannelDecorator implements Channel {
+
+  protected Channel channel;
+
+  public ChannelDecorator(Channel channel) {
+    this.channel = channel;
+  }
+
+  public void send(String msg) {
+    channel.send(msg);
+  }
+
+  public String receive() {
+    return channel.receive();
+  }
+
+}
+```
+
+Ela é uma Channel, isto é, ela implementa essa interface e, portanto, os seus dois métodos. Assim, sempre que for esperado um objeto do tipo Channel podemos passar um objeto do tipo ChannelDecorator no lugar.
+
+Ela possui internamente um objeto do tipo Channel para o qual delega as chamadas aos métodos send e receive. Em outras palavras, um decorador, no nosso caso, vai sempre referenciar um outro decorador. Após implementar a funcionalidade que lhe cabe — um buffer, compactação, etc — ele repassa a chamada para esse decorador.
+
+```Java
+class ZipChannel extends ChannelDecorator {
+
+   public ZipChannel(Channel c) {
+    super(c);
+   }  
+
+   public void send(String msg) {
+    "compacta mensagem msg"
+    super.channel.send(msg);
+   }
+
+   public String receive() {
+    String msg = super.channel.receive();
+    "descompacta mensagem msg"
+    return msg;
+   }
+
+}
+```
+
+Cod completo [aqui](https://gist.github.com/mtov/c8d65378a2904af01c20c53922f5ae1d)
+
+# Strategy
+**Contexto**: Suponha a seguinte classe Lista
+```Java
+class MyList {
+
+  ... // dados de uma lista
+  ... // métodos de uma lista: add, delete, search
+
+  public void sort() {
+    ... // ordena a lista usando Quicksort
+  }
+}
+```
+**Problema**: Os nossos clientes estão solicitando que novos algoritmos de ordenação. Eles querem ter a opção de alterar e definir, por conta própria, o algoritmo de ordenação.
+**Solução**: Deixar o algoritmo de ordenação parametrizável.
+```Java
+class MyList {
+
+  ... // dados de uma lista
+  ... // métodos de uma lista: add, delete, search
+
+  private SortStrategy strategy;
+
+  public MyList() {
+    strategy = new QuickSortStrategy();
+  }
+
+  public void setSortStrategy(SortStrategy strategy) {
+    this.strategy = strategy;
+  }
+
+  public void sort() {
+    strategy.sort(this);
+  }
+}
+
+
+abstract class SortStrategy {
+  abstract void sort(MyList list);
+}
+
+class QuickSortStrategy extends SortStrategy {
+  void sort(MyList list) { ... }
+}
+
+class ShellSortStrategy extends SortStrategy {
+  void sort(MyList list) { ... }
+}
+
+```
+# Observador
+**Contexto**: Temos que manupular objetos de duas classes, Temperatura e Termometro. Se a temperatura mudar devemos atualizar o termometro.
 ```Java
 ```
-**Problema**:
-**Solução**:
+**Problema**: Não queremos acoplar Temperatura (classe de modelo) a Termometro (classe de interface). O motivo é simples: classes de interface mudam com frequência.
+**Solução**: Esse padrão define como implementar uma relação do tipo um-para-muitos entre objetos sujeito e observadores. Quando o estado de um sujeito muda, seus observadores devem ser notificados.
+```Java
+void main() {
+  Temperatura t = new Temperatura();
+  t.addObserver(new TermometroCelsius());
+  t.addObserver(new TermometroFahrenheit());
+  t.setTemp(100.0);
+}
+
+//////////////////////////////////////////
+
+class Temperatura extends Subject {
+
+  private double temp;
+
+  public double getTemp() {
+    return temp;
+  }
+
+  public void setTemp(double temp) {
+    this.temp = temp;
+    notifyObservers();
+  }
+}
+
+class TermometroCelsius implements Observer {
+
+  public void update(Subject s){
+    double temp = ((Temperatura) s).getTemp();
+    System.out.println("Temperatura Celsius: " + temp);
+  }
+}
+
+```
+Código completo [aqui](https://gist.github.com/mtov/5fadb0e599cb84fd6bd124b2ff37c03c)
+
+
+# Template Method
+**Contexto**: Suponha que estamos desenvolvendo uma folha de pagamento. Nela, temos uma classe Funcionario, com duas subclasses: FuncionarioPublico e FuncionarioCLT
+```Java
+```
+**Problema**: As subclasses precisam saber o método que devem implementar.
+**Solução**: O padrão de projeto Template Method resolve o problema que enunciamos. Ele especifica como implementar o esqueleto de um algoritmo em uma classe abstrata X, mas deixando pendente alguns passos — ou métodos abstratos. Esse recurso de sistemas orientados a objetos é chamado de inversão de controle.
+```Java
+abstract class Funcionario {
+
+   double salario;
+   ...
+   abstract double calcDescontosPrevidencia();
+   abstract double calcDescontosPlanoSaude();
+   abstract double calcOutrosDescontos();
+
+   public double calcSalarioLiquido() { // template method
+     double prev = calcDescontosPrevidencia();
+     double saude = calcDescontosPlanoSaude();
+     double outros = calcOutrosDescontos();
+     return salario - prev - saude - outros;
+   }
+}
+```
+# Visitor
+**Contexto**: Suponha que nesse sistema existe uma classe Veiculo, com subclasses Carro, Onibus e Motocicleta. Suponha ainda que todos esses veículos estão armazenados em uma lista. Dizemos que essa lista é uma estrutura de dados polimórfica, pois ela pode armazenar objetos de classes diferentes, desde que eles sejam subclasses de Veiculo.
+**Problema**: Com frequência, no sistema de estacionamentos, temos que realizar uma operação em todos os veículos estacionados. Como simular double dispatch em uma linguagem como Java?
+**Solução**: A solução para o nosso problema consiste em usar o padrão de projeto Visitor. Esse padrão define como adicionar uma operação em uma família de objetos, sem que seja preciso modificar as classes dos mesmos. Além disso, o padrão Visitor deve funcionar mesmo em linguagens com single dispatching de métodos, como Java.
+```Java
+abstract class Veiculo {
+  abstract public void accept(Visitor v);
+}
+
+class Carro extends Veiculo {
+  ...
+  public void accept(Visitor v) {
+   v.visit(this);
+  }
+  ...
+}
+
+class Onibus extends Veiculo {
+  ...
+  public void accept(Visitor v) {
+    v.visit(this);
+  }
+  ...
+}
+
+// Idem para Motocicleta
+///////////////////////////////
+
+PrintVisitor visitor = new PrintVisitor();
+foreach (Veiculo veiculo: listaDeVeiculosEstacionados) {
+  veiculo.accept(visitor);
+}
+
+```
+
+Antes de concluir, é importante mencionar que visitors possuem uma desvantagem importante: eles podem forçar uma quebra no encapsulamento das classes que serão visitadas. Por exemplo, Veiculo pode ter que implementar métodos públicos expondo seu estado interno para que os visitors tenham acesso a eles.
+
+# Outros Padrões de Projeto
+**Iterador** é um padrão de projeto que padroniza uma interface para caminhar sobre uma estrutura de dados. Normalmente, essa interface inclui métodos como hasNext() e next(). Um iterador permite percorrer uma estrutura de dados sem conhecer o seu tipo concreto.
+```Java
+List<String> list = Arrays.asList("a","b","c");
+Iterator it = list.iterator();
+while(it.hasNext()) {
+  String s = (String) it.next();
+  System.out.println(s);
+}
+```
+
+**Builder** é um padrão de projeto que facilita a instanciação de objetos que têm muitos atributos, sendo alguns deles opcionais.
+```Java
+Livro esm = new Livro.Builder().
+                  setNome("Engenharia Soft Moderna").
+                  setEditora("UFMG").setAno(2020).build();
+
+Livro gof = new Livro.Builder().setName("Design Patterns").
+                  setAutores("GoF").setAno(1995).build();
+```
+
+
+
 ```Java
 ```
 
-# Model
-**Contexto**:
-```Java
-```
-**Problema**:
-**Solução**:
-```Java
-```
+# Quando Não Usar Padrões de Projeto
+
+Antes de usar uma **fábrica**, devemos fazer (e responder) a seguinte pergunta: vamos mesmo precisar criar objetos de tipos diferentes no nosso sistema? Existem boas chances de que tais objetos sejam, de fato, necessários? Se sim, então vale a pena usar uma Fábrica para encapsular a criação de tais objetos. Caso contrário, é melhor criar os objetos usando o operador new, que é a solução nativa para criação de objetos em linguagens como Java.
+
+De forma semelhante, antes de incluir o padrão **Strategy** em uma certa classe devemos nos perguntar: vamos mesmo precisar de parametrizar os algoritmos usados na implementação dessa classe? Existem, de fato, usuários que vão precisar de algoritmos alternativos? Se sim, vale a pena usar o padrão Strategy. Caso contrário, é preferível implementar o algoritmo diretamente no corpo da classe.
+
+No entanto, em muitos sistemas observa-se um uso exagerado de padrões de projeto, em situações nas quais os ganhos de flexibilidade e extensibilidade são questionáveis. Existe até um termo para se referir a essa situação: **paternite**, isto é, uma inflamação associada ao uso precipitado de padrões de projeto.
+

@@ -26,8 +26,28 @@ Professora Gisele L. Pappa
 [Epsilon-Lexicase Selection for Regression](Artigo02-20-08-2020.md)
 
 # Tópicos em Computação Evolucionária
+
+[Tópicos em Computação Evolucionária - Mecanismos de Diversidade](video11.md)
+[Tópicos em Computação Evolucionária - Mecanismos de Diversidade](video12.md)
+[Tópicos em Computação Evolucionária - Mecanismos de Diversidade](video13.md)
+[Tópicos em Computação Evolucionária - Mecanismos de Diversidade](video14.md)
+
+
 ...
 # Inteligência Coletiva
 ...
 # Redes Neurais Artificiais
 ...
+
+
+
+Videos
+
+11 - https://www.youtube.com/watch?v=SB9Zlojl5M0&feature=youtu.be&ab_channel=GiselePappa
+
+12 - https://www.youtube.com/watch?v=f-uMjimaWxk&feature=youtu.be&ab_channel=GiselePappa
+
+13 - https://www.youtube.com/watch?v=w6_2vdtQpn0&feature=youtu.be&ab_channel=GiselePappa
+
+14 - https://www.youtube.com/watch?v=n2h3dpvvRCk&feature=youtu.be&ab_channel=GiselePappa
+

@@ -4,12 +4,12 @@
 
 [Revisão](Resumo_presencial.md)
 
-- Apresentação e motivação do cursoURL
-- Percepção visualURL
-- Processamento pré-atentivoURL
-- Percepção e contextoURL
-- Limitações de memóriaURL
-- Outras leisURL
+- Apresentação e motivação do curso
+- Percepção visual
+- Processamento pré-atentivo
+- Percepção e contexto
+- Limitações de memória
+- Outras leis
 
 ## Tabelas e gráficos
 
@@ -24,3 +24,11 @@
 [Séries temporais parte 1](Series_temporais_01.md)
 [Séries temporais parte 2](Series_temporais_02.md)
 [Séries temporais parte 3](Series_temporais_03.md)
+
+## Distribuições
+
+[Distribuições](distribuicoes.md)
+
+## Ranking e Parte-todo
+
+[rank parte-todo](ranking-partetodo.md)

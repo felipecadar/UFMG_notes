@@ -19,6 +19,23 @@
 2. [Deadlocks](aula-05b.md)
 
 ## Sistemas distribuídos: arquiteturas
+
+
+1. [princípios de projeto de sistemas distribuídos](aula-06a.md)
+   1. [video](https://www.youtube.com/watch?v=3_fcV6Wh_Gg&feature=youtu.be&ab_channel=DorgivalGuedes)
+2. [DNS](aula-06b.md)
+   1. [video](https://www.youtube.com/watch?v=BSusPO5hzAU)
+3. [organização de sistemas distribuídos](aula-06c.md)
+   1. [video](https://www.youtube.com/watch?v=-l_tyl3NMaw&feature=youtu.be&ab_channel=DorgivalGuedes)
+4. [arquitetura cliente-servidor](aula-06d.md)
+   1. [video](https://www.youtube.com/watch?v=8BQWx7ULCjE&feature=youtu.be&ab_channel=DorgivalGuedes)
+5. [arquitetura par-a-par (P2P)](aula-06e.md)
+   1. [video](https://www.youtube.com/watch?v=UkSm3EmpSRU&feature=youtu.be&ab_channel=DorgivalGuedes)
+6. [opcional): redes P2P estruturadas (DHTs)](aula-06e.md)
+   1. [video](https://www.youtube.com/watch?v=tbpRUYEPE9c&feature=youtu.be&ab_channel=DorgivalGuedes)
+7. [opcional): funcionamento do BitTorrent](aula-06g.md)
+   1. [video](https://www.youtube.com/watch?v=3w314b9jdZ4&feature=youtu.be&ab_channel=DorgivalGuedes)
+
 ## Comunicação I
 ## Comunicação II
 ## Nomes
