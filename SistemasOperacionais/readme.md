@@ -11,4 +11,5 @@
 ## 2.2. Gestão de tarefas
 ### 2.2.1. [O conceito de tarefa](maziero/video04.md)
 ### 2.2.1. [Implementação de tarefas](maziero/video05.md)
+### 2.2.1. [Escalonamento de tarefas](maziero/video06.md)
 
