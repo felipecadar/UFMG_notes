@@ -36,3 +36,7 @@
 ## Correlação
 
 [correlação](correlacao.md)
+
+## Desvio
+
+[desvio](desvio.md)
