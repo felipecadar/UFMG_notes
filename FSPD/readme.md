@@ -37,6 +37,13 @@
    1. [video](https://www.youtube.com/watch?v=3w314b9jdZ4&feature=youtu.be&ab_channel=DorgivalGuedes)
 
 ## Comunicação I
+
+1. [chamadas de procedimentos remotos (RPC)](aula-07a.md)
+2. [detalhes de implementação e aplicação de RPC](aula-07b.md)
+3. [programação com RPyC](aula-07c.md)
+4. [programação com gRPC](aula-07d.md)
+
+
 ## Comunicação II
 ## Nomes
 ## Sincronização e coordenação
