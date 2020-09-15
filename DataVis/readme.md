@@ -32,3 +32,7 @@
 ## Ranking e Parte-todo
 
 [rank parte-todo](ranking-partetodo.md)
+
+## Correlação
+
+[correlação](correlacao.md)
