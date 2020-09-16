@@ -45,7 +45,14 @@
 
 
 ## Comunicação II
+
+1. [Sockets](aula-08.md)
+
 ## Nomes
+
+1. [Resolução de Nomes](aula-09a.md)
+1. [LDAP](aula-09b.md)
+
 ## Sincronização e coordenação
 ## Replicação e consistência
 ## Replicação e consistência
