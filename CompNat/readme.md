@@ -27,14 +27,16 @@ Professora Gisele L. Pappa
 
 # Tópicos em Computação Evolucionária
 
-[Tópicos em Computação Evolucionária - Mecanismos de Diversidade](video11.md)
-[Tópicos em Computação Evolucionária - Mecanismos de Diversidade](video12.md)
-[Tópicos em Computação Evolucionária - Mecanismos de Diversidade](video13.md)
-[Tópicos em Computação Evolucionária - Mecanismos de Diversidade](video14.md)
+[Tópicos em Computação Evolucionária - Mecanismos de Diversidade 1](video11.md)
+[Tópicos em Computação Evolucionária - Mecanismos de Diversidade 2](video12.md)
+[Tópicos em Computação Evolucionária - Mecanismos de Diversidade 3](video13.md)
+[Tópicos em Computação Evolucionária - Mecanismos de Diversidade 4](video14.md)
 
-
-...
 # Inteligência Coletiva
+
+[Inteligência de Enxames 1](video15.md)
+[Inteligência de Enxames 2](video16.md)
+
 ...
 # Redes Neurais Artificiais
 ...
