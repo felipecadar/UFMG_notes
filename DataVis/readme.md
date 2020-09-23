@@ -40,3 +40,11 @@
 ## Desvio
 
 [desvio](desvio.md)
+
+## Dashboard
+
+[dashboard](dashboard.md)
+
+## Dados Multivariados
+
+[multivariados](multivariados.md)
