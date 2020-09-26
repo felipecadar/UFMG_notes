@@ -7,28 +7,28 @@ Olá, meu nome é Felipe Cadar, eu estou sendo orientado pelo professor Erickson
 
 # Slide 2
 
-Qual foi nossa motivação?
+Qual é a nossa motivação?
 
 # Slide 3
 
-Graças a avanços tecnológicos em câmeras e dispositivos de armazenamento, e à crescente cultura de compartilhamento de momentos, surgiram os Videos Egocentricos.
+Graças a avanços tecnológicos em câmeras e dispositivos de armazenamento, e à crescente cultura de compartilhamento de momentos, aumentaram exponencialmente a quantidade de videos em primeira pessoa, também conhecidos como Egocêntricos.
 
-Uma característica desses vídeos e que eles geralmente são longos. A pessoa coloca uma câmera na cabeça, começa a gravar e realiza sua atividade normalmente, seja ela um esporte ou um passeio de bicicleta pela cidade.
+Uma característica desses vídeos é que eles geralmente são longos. A pessoa coloca uma câmera na cabeça, começa a gravar e realiza sua atividade normalmente, seja ela um esporte ou um passeio de bicicleta pela cidade.
 
-O problema desses vídeos longos é que ninguém quer assisti-los depois. Para resolver isso as pessoas começaram a acelerar eles, mas os resultados não foram tão bons principalmente pela instabilidade gerada.
+O problema desses vídeos é que, por serem longos, ninguém tem paciência para assisti-los depois. Uma forma de resolver o problema da duração é acelerar o vídeo. Porém, por se tratar de um vídeo em primeira pessoa, o vídeo acelerado fica visual instável
 
 # Slide 4
 
 Com isso em mente algumas metodologias mais complexas foram desenvolvidas.
 
-Primeiro veio o Hyperlapse, que acelerava o vídeo de forma que os frames selecionados tentavam manter a estabilidade.
+Primeiro veio o Hyperlapse, que acelera o vídeo de forma que os frames selecionados tentavam manter a estabilidade visual.
 
-Mesmo assim, tudo ficava muito rápido, então os pequenos trechos que eram importantes para quem gravou acabam passando despercebidos.
+Mesmo assim, apesar de resolver o problema da instabilidade no vídeo acelerado, tudo fica muito rápido, então os pequenos trechos que eram importantes para quem gravou acabam passando despercebidos.
 
-Então surgiu o Semantic Hyperlapse, que além de produzir um vídeo estável, enfatiza as partes mais importântes, ou semânticas, atribuindo a elas uma velocidade menor, e acelerando o resto do modo que a aceleração global do vídeo se mantenha.
+Então surgiu o Hyperlapse Semântico, que além de produzir um vídeo estável, enfatiza as partes mais importântes, ou semânticas, atribuindo a elas uma velocidade menor, enquanto que o restante é acelerado a uma velocidade maior, de modo que a aceleração global do vídeo se mantenha.
 
 
-Mas é muito difícil definir o que é a semântica de um vídeo.
+O problema é definir o que é a semântica de um vídeo.
 
 # Slide 5
 
@@ -39,10 +39,12 @@ Na proposta do método, a semântica era fixa e representada pela presença de f
 Então um próximo trabalho sugeriu que qualquer um pode criar uma métrica de semântica, como a presença de pessoas ou objetos específicos, e atribuir uma nota pra cada frame do vídeo, então o metodo vai focar nos frames com as melhores notas. Mesmo assim, pode ser muito complexo criar uma métrica que seja boa para cada vídeo.
 
 # Slide 7
+ 
+Em vez de definir semantica apenas como face, um outro trabalho permite que o usuário informe, dentre algumas classes de objetos, quais são relevantes para ele.
 
-Com o intúito de automatizar o processo, um grupo de autores propos que a semântica seja extraída dos interesses manifestados pelo usuário em redes sociais. 
+O problema é que a semântica ainda está limitada às classes disponíveis.
 
-Mas imagine que você gravou o vídeo de um passeio pela cidade para conhecer uma igreja, e nas sua redes sociais você expressa seu amor por carros. Então o Hyperlapse Semântico do seu vídeo vai ignorar a semântica das igrejas e considerar como relevantes apenas os carros que passaram vídeo.
+<!-- Mas imagine que você gravou o vídeo de um passeio pela cidade para conhecer uma igreja, e nas sua redes sociais você expressa seu amor por carros. Então o Hyperlapse Semântico do seu vídeo vai ignorar a semântica das igrejas e considerar como relevantes apenas os carros que passaram vídeo. -->
 
 # Slide 8
 
