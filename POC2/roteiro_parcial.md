@@ -36,15 +36,15 @@ Na proposta do método, a semântica era fixa e representada pela presença de f
 
 # Slide 6
 
-Então um próximo trabalho sugeriu que qualquer um pode criar uma métrica de semântica, como a presença de pessoas ou objetos específicos, e atribuir uma nota pra cada frame do vídeo, então o metodo vai focar nos frames com as melhores notas. Mesmo assim, pode ser muito complexo criar uma métrica que seja boa para cada vídeo.
-
-# Slide 7
- 
 Em vez de definir semantica apenas como face, um outro trabalho permite que o usuário informe, dentre algumas classes de objetos, quais são relevantes para ele.
 
 O problema é que a semântica ainda está limitada às classes disponíveis.
 
-<!-- Mas imagine que você gravou o vídeo de um passeio pela cidade para conhecer uma igreja, e nas sua redes sociais você expressa seu amor por carros. Então o Hyperlapse Semântico do seu vídeo vai ignorar a semântica das igrejas e considerar como relevantes apenas os carros que passaram vídeo. -->
+# Slide 7
+ 
+Com o intúito de automatizar o processo, um grupo de autores propos que a semântica seja extraída dos interesses manifestados pelo usuário em redes sociais.
+
+Mas imagine que você gravou o vídeo de um passeio pela cidade para conhecer uma igreja, e nas sua redes sociais você expressa seu amor por carros. Então o Hyperlapse Semântico do seu vídeo vai ignorar a semântica das igrejas e considerar como relevantes apenas os carros que passaram vídeo.
 
 # Slide 8
 
