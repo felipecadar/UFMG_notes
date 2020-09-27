@@ -49,5 +49,5 @@ Os processos formam um círculo.
 | --------------- | ---------------- | ---------------- | ----------------------- | -------------------------------------------- |
 | Centralizado    | 3                | 2                | simples, pouco overhead | pnto único de falha e de sobrecarga          |
 | Descentralizado | 2.m.k + m, K=1,2 | 2.m.k            | resiste a falhas        | pode ser starvation                          |
-| Destribuído     | 3(N-1)           | 2(N-1)           | overhead distribuído    | muitas mensagens                             |
+| Distribuído     | 3(N-1)           | 2(N-1)           | overhead distribuído    | muitas mensagens                             |
 | token-ring      | 1, 2, ..., N     | 0, ..., N-1      | simples                 | recriar do token, quando perdido, é complexo |

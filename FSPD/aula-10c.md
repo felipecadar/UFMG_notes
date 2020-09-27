@@ -23,7 +23,8 @@ Dado o vetor Vi do processo i:
 
 Dado dois eventos A e B:
 1. Se todos os valores do vetor de A são maiores que B, então A ocorreu depois que B.
-2. Se nem todos os valores são maiores ou menores, não podemos definir relação de ordem entre A e B.
+2. Se todos os valores do vetor de A são menores ou iguais a B, A occoreu antes de B
+3. Se nem todos os valores são maiores ou menores, não podemos definir relação de ordem entre A e B.
 
 ## Causal-Ordered Multicasting
 
