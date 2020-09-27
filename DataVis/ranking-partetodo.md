@@ -59,7 +59,7 @@ Uteis para comparar diversos relacionamentos parte todos, consideramos que temos
 
 Solução para comparar mais fatias, porem perdemos uma noção do Todo
 
-## 3.9. Sanburst
+## 3.9. Sunburst
 
 Variação do pizza para incluir hierarquina ( tipo o monitor de arquivos do linux)
 
