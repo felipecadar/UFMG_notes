@@ -54,6 +54,14 @@
 1. [LDAP](aula-09b.md)
 
 ## Sincronização e coordenação
+
+1. [sincronização em sistemas distribuídos](aula-10a.md)
+1. [relógio lógico](aula-10b.md)
+1. [vector clock](aula-10c.md)
+1. [exclusão mútua em sistemas distribuídos](aula-10d.md)
+1. [eleição em sistemas distribuídos](aula-10e.md)
+
+
 ## Replicação e consistência
 ## Replicação e consistência
 ## Tolerância a falhas
