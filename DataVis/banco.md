@@ -20,6 +20,8 @@
 - [São erros comuns no projeto e desenvolvimento de dashboards EXCETO:](#são-erros-comuns-no-projeto-e-desenvolvimento-de-dashboards-exceto)
 - [Quais dentre as seguintes técnicas de visualização NÃO se aplicam ao relacionamento quantitativo séries temporais:](#quais-dentre-as-seguintes-técnicas-de-visualização-não-se-aplicam-ao-relacionamento-quantitativo-séries-temporais)
 - [Associe os conceitos às suas definições:](#associe-os-conceitos-às-suas-definições)
+- [Com relação aos componentes visuais dos gráficos, todas as opções seguintes não devem faltar, EXCETO:](#com-relação-aos-componentes-visuais-dos-gráficos-todas-as-opções-seguintes-não-devem-faltar-exceto)
+- [Associe o conceito à sua definição:](#associe-o-conceito-à-sua-definição)
 
 # Quais das seguintes técnicas de visualização NÃO costumam ser usadas para a análise de correlações?
 
@@ -270,3 +272,28 @@ As respostas corretas são: Gráficos de pizza, Histograma
 - A mente agrupa elementos similares em entidades coletivas
   - Lei da similaridade
  
+
+# Com relação aos componentes visuais dos gráficos, todas as opções seguintes não devem faltar, EXCETO:
+Escolha uma:
+- a. Grids para melhor mensuração dos objetos visuais e bodas para separar o gráfico do restante dos componentes da tela ou página Grids não são essenciais. Quando usados, devem ter pouca ênfase visual. Bordas não devem ser usadas a menos que não se possa usar espaço em branco para separar os gráficos dos outros componentes da interface / página.
+- b. Legendas e títulos dos eixos
+- c. Unidades de medida
+- d. Informações sobre o contexto dos dados, como valores esperados, alvos / metas ou valores de referência
+- e. Título explicativo, data e fontes dos dados.
+
+**Reposta**: a. Grids para melhor mensuração dos objetos visuais e bodas para separar o gráfico do restante dos componentes da tela ou página Grids não são essenciais. Quando usados, devem ter pouca ênfase visual. Bordas não devem ser usadas a menos que não se possa usar espaço em branco para separar os gráficos dos outros componentes da interface / página.
+
+# Associe o conceito à sua definição:
+
+- São atributos visuais que são percebidos antes da atenção consciente.	
+  - pré-atentivos
+- Sequência de gráficos pequenos e do mesmo tipo (mesmas variáveis e escalas) que representam
+  - pequenos multiplos
+- A mente agrupa elementos similares em entidades coletivas.	
+  - similaridade
+
+- Número de elementos da matriz (tabela) de dados / área de dados do gráfico	
+  - densidade
+
+- A proximidade espacial ou temporal de elementos induz a mente a percebê-los coletivamente
+  - proximidade
