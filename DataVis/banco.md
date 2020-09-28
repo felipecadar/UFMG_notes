@@ -11,6 +11,14 @@
 - [Qual a melhor razão de aspecto para gráficos de correlação?](#qual-a-melhor-razão-de-aspecto-para-gráficos-de-correlação)
 - [São características visuais relevantes de distribuições EXCETO:](#são-características-visuais-relevantes-de-distribuições-exceto)
 - [São boas práticas nas análises de desvio, EXCETO:](#são-boas-práticas-nas-análises-de-desvio-exceto)
+- [Pode ser positiva ou negativa e determina se uma variável se correlaciona diretamente ou inversamente à outra.](#pode-ser-positiva-ou-negativa-e-determina-se-uma-variável-se-correlaciona-diretamente-ou-inversamente-à-outra)
+- [São técnicas de visualização usadas para ilustrar distribuições, EXCETO:](#são-técnicas-de-visualização-usadas-para-ilustrar-distribuições-exceto)
+- [Sobre o uso de animações em séries temporais, é correto afirmar EXCETO:](#sobre-o-uso-de-animações-em-séries-temporais-é-correto-afirmar-exceto)
+- [Sobre os diferentes paradigmas existentes para visualização de dados multi-variados, complete as lacunas a seguir:](#sobre-os-diferentes-paradigmas-existentes-para-visualização-de-dados-multi-variados-complete-as-lacunas-a-seguir)
+- [Com relação aos gráficos de pizza, é CORRETO afirmar:](#com-relação-aos-gráficos-de-pizza-é-correto-afirmar)
+- [Com relação às análises de correlação, é INCORRETO afirmar que:](#com-relação-às-análises-de-correlação-é-incorreto-afirmar-que)
+- [São erros comuns no projeto e desenvolvimento de dashboards EXCETO:](#são-erros-comuns-no-projeto-e-desenvolvimento-de-dashboards-exceto)
+- [Quais dentre as seguintes técnicas de visualização NÃO se aplicam ao relacionamento quantitativo séries temporais:](#quais-dentre-as-seguintes-técnicas-de-visualização-não-se-aplicam-ao-relacionamento-quantitativo-séries-temporais)
 
 # Quais das seguintes técnicas de visualização NÃO costumam ser usadas para a análise de correlações?
 
@@ -127,3 +135,109 @@ Escolha uma ou mais:
 - e. Sobrepor escalas para comparar valores cíclicos. 
 
 As respostas corretas são: Usar gráficos de pareto com percentis., Usar diferentes escalas (linear, logarítmica, quadrática, etc.)., Sobrepor escalas para comparar valores cíclicos.
+
+# Pode ser positiva ou negativa e determina se uma variável se correlaciona diretamente ou inversamente à outra.
+
+A resposta correta é: 
+- Pode ser positiva ou negativa e determina se uma variável se correlaciona diretamente ou inversamente à outra.
+  -  Direção
+- Indica a intensidade com que as variáveis se associam. 
+  - Grau
+- Pode ser linear ou não e mostrar se a correlação é linear, exponencial, etc
+  - Forma.
+
+# São técnicas de visualização usadas para ilustrar distribuições, EXCETO:
+
+Escolha uma ou mais:
+- a. Gráfico de dispersão
+- b. Mapa de calor
+- c. Gráfico de barras
+- d. Polígono de frequência
+- e. Gráfico de pizza
+- f. Gráfico de radar
+- g. Violin plot
+- h. Histograma
+- i. Box plot
+- j. Strip plot
+- k. Gráfico de densidade
+- l. Unit plot
+- m. Stem-and-Leaf
+- n. Bar code ou rug plot
+
+As respostas corretas são: 
+- Gráfico de barras
+- Gráfico de pizza
+- Gráfico de dispersão
+- Gráfico de radar
+
+# Sobre o uso de animações em séries temporais, é correto afirmar EXCETO:
+
+Escolha uma:
+- a. Seu uso tão frequente está relacionado ao fato que costumam ser atraentes e ter um impacto positivo na audiência.
+- b. As animações são muito usadas para representação de séries temporais, embora não seja muito efetiva por limitações de percepção e cognição.
+- c. É preciso ter em mente que o ser humano tem poucos compartimentos de memória para armazenar informações no momento da análise dos dados (memória de trabalho).
+- d. O uso de animações para contar histórias usando séries temporais tem sido bem sucedido em alguns casos de acordo com a habilidade do apresentador que leva a audiência a tirar as conclusões necessárias.
+- e. Uma alternativa viável e mais efetiva é o uso do padrão de projeto pequenos múltiplos por não demandar trabalho cognitivo dos usuários / leitores.
+
+A resposta correta é: 
+- Uma alternativa viável e mais efetiva é o uso do padrão de projeto pequenos múltiplos por não demandar trabalho cognitivo dos usuários / leitores.
+
+
+# Sobre os diferentes paradigmas existentes para visualização de dados multi-variados, complete as lacunas a seguir:
+
+- [Projeções geométricas] consistem em gerar projeções 2D para dados multi-dimensionais e são úteis na detecção de exceções e de correlações entre diferentes dimensões.
+
+- [Representações hierárquicas] subdividem o espaço e apresentam sub-espaços de forma hierárquica. Atributos são tratados de forma diferente, portanto geralmente são úteis quando se trata de atributos hierárquicos. Normalmente, treinamento é necessário para compreensão desse tipo de abordagem.
+
+- [Representações iconográficas] consistem no mapeamento de objetos multi-dimensionais em ícones ou glifos cujas características visuais dependem dos atributos.
+
+- [Técnicas orientadas a pixels] consistem na representação de um atributo por um pixel baseado em alguma escala de cores: cada cor indica um valor possível. Para um conjunto de dados n-dimensional, n pixels coloridos são necessários para representar cada item.
+
+# Com relação aos gráficos de pizza, é CORRETO afirmar:
+
+Escolha uma:
+- a. Podem ser usados na codificação de inúmeras séries de dados.
+- b. Podem ser eficientemente comparados quando posicionados lado a lado.
+- c. Representam uma metáfora interessante de partes de um todo.
+- d. Os valores são codificados como áreas de setores circulares e podem ser facilmente mensuráveis.
+- e. Não ocupam muito espaço.
+
+A resposta correta é: Representam uma metáfora interessante de partes de um todo..
+
+
+# Com relação às análises de correlação, é INCORRETO afirmar que:
+
+Escolha uma:
+- a. Duas variáveis correlacionadas não implicam, necessariamente, no fato de uma ser causa da outra.
+- b. Visam analisar relações de causalidade entre variáveis quantitativas.
+- c. Envolve a comparação de variáveis para verificar se a variação em um conjunto de valores interfere no outro sistematicamente e em que grau.
+- d. Consistem em analisar como variáveis quantitativas se relacionam e como uma afeta as outras.
+
+A resposta correta é: Visam analisar relações de causalidade entre variáveis quantitativas..
+
+# São erros comuns no projeto e desenvolvimento de dashboards EXCETO:
+
+Escolha uma:
+- a. Não usar objetos visuais para separar os elementos da tela de forma efetiva.
+- b. Exibir detalhes / precisão numérica excessiva.
+- c. Exceder os limites de uma tela.
+- d. Não fornecer contexto para os dados ou fazê-lo de forma incorreta.
+- e. Fragmentar dados em múltiplas telas.
+
+A resposta correta é: Não usar objetos visuais para separar os elementos da tela de forma efetiva..
+
+# Quais dentre as seguintes técnicas de visualização NÃO se aplicam ao relacionamento quantitativo séries temporais:
+
+Escolha uma ou mais:
+- a. Gráfico de linhas
+- b. Gráfico de linhas e pontos
+- c. Gráfico de pontos
+- d. Histograma O hidrograma é um tipo particular de gráfico de barras que ilustra distribuições.
+- e. Gráfico de radar
+- f. Box plots
+- g. Gráfico de dispersão
+- h. Gráficos de pizza Podemos usar múltiplos gráficos de pizza, cada qual para uma faceta temporal dos dados. Contudo, isso não é indicado visto que é uma tarefa complexa acompanhar cada fatia e mensurar as variações nos valores representados. O mais indicado, nesse caso, seria um gráfico de áreas empilhadas.
+- i. Gráfico de barras
+- j. Mapas de calor
+
+As respostas corretas são: Gráficos de pizza, Histograma
