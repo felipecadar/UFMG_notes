@@ -11,7 +11,7 @@
 - [Qual a melhor razão de aspecto para gráficos de correlação?](#qual-a-melhor-razão-de-aspecto-para-gráficos-de-correlação)
 - [São características visuais relevantes de distribuições EXCETO:](#são-características-visuais-relevantes-de-distribuições-exceto)
 - [São boas práticas nas análises de desvio, EXCETO:](#são-boas-práticas-nas-análises-de-desvio-exceto)
-- [Pode ser positiva ou negativa e determina se uma variável se correlaciona diretamente ou inversamente à outra.](#pode-ser-positiva-ou-negativa-e-determina-se-uma-variável-se-correlaciona-diretamente-ou-inversamente-à-outra)
+- [Com relação aos padrões visuais de interesse nas análises de correlação, associe os termos às suas características:.](#com-relação-aos-padrões-visuais-de-interesse-nas-análises-de-correlação-associe-os-termos-às-suas-características)
 - [São técnicas de visualização usadas para ilustrar distribuições, EXCETO:](#são-técnicas-de-visualização-usadas-para-ilustrar-distribuições-exceto)
 - [Sobre o uso de animações em séries temporais, é correto afirmar EXCETO:](#sobre-o-uso-de-animações-em-séries-temporais-é-correto-afirmar-exceto)
 - [Sobre os diferentes paradigmas existentes para visualização de dados multi-variados, complete as lacunas a seguir:](#sobre-os-diferentes-paradigmas-existentes-para-visualização-de-dados-multi-variados-complete-as-lacunas-a-seguir)
@@ -19,6 +19,7 @@
 - [Com relação às análises de correlação, é INCORRETO afirmar que:](#com-relação-às-análises-de-correlação-é-incorreto-afirmar-que)
 - [São erros comuns no projeto e desenvolvimento de dashboards EXCETO:](#são-erros-comuns-no-projeto-e-desenvolvimento-de-dashboards-exceto)
 - [Quais dentre as seguintes técnicas de visualização NÃO se aplicam ao relacionamento quantitativo séries temporais:](#quais-dentre-as-seguintes-técnicas-de-visualização-não-se-aplicam-ao-relacionamento-quantitativo-séries-temporais)
+- [Associe os conceitos às suas definições:](#associe-os-conceitos-às-suas-definições)
 
 # Quais das seguintes técnicas de visualização NÃO costumam ser usadas para a análise de correlações?
 
@@ -136,7 +137,7 @@ Escolha uma ou mais:
 
 As respostas corretas são: Usar gráficos de pareto com percentis., Usar diferentes escalas (linear, logarítmica, quadrática, etc.)., Sobrepor escalas para comparar valores cíclicos.
 
-# Pode ser positiva ou negativa e determina se uma variável se correlaciona diretamente ou inversamente à outra.
+# Com relação aos padrões visuais de interesse nas análises de correlação, associe os termos às suas características:.
 
 A resposta correta é: 
 - Pode ser positiva ou negativa e determina se uma variável se correlaciona diretamente ou inversamente à outra.
@@ -241,3 +242,31 @@ Escolha uma ou mais:
 - j. Mapas de calor
 
 As respostas corretas são: Gráficos de pizza, Histograma
+
+# Associe os conceitos às suas definições:
+
+
+- O processo de se tornar um especialista em um domínio específico consiste principalmente na criação de conceitos ou blocos eficazes de alto nível.
+  - Chunking
+ 
+- Proximidade espacial ou temporal de elementos induz a mente a percebê-los coletivamente.
+  - Lei da proximidade
+ 
+- A mente pode utilizar elementos da sua experiência mesmo sem a percepção de elementos visuais para completar uma figura.
+  - Lei do fechamento
+ 
+- Visão geral primeiro, zoom e filtro, depois detalhes sob demanda.
+  - Mantra da visualização de informação de Ben Schneiderman
+ 
+- É um padrão de projeto clássico, proposto por Edward Tufte, que consiste na mesma representação exibida múltiplas vezes (diferentes valores ou variáveis) e possível de ser acessada visualmente facilmente.
+  - Pequenos múltiplos
+ 
+- Maximize a densidade de dados em um gráfico.
+  - Princípio da densidade de dados de Tufte
+ 
+- É um “termo guarda-chuva” que envolve a visualização de informação e a visualização científica.
+  - Visualização de dados
+ 
+- A mente agrupa elementos similares em entidades coletivas
+  - Lei da similaridade
+ 
