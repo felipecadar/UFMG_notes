@@ -37,11 +37,17 @@ Professora Gisele L. Pappa
 [Inteligência de Enxames 1](video15.md)
 [Inteligência de Enxames 2](video16.md)
 
+[Aplicações de ACO](video17.md)
+[Particle Swarm Optimization (PSO)](video18.md)
+
 ...
 # Redes Neurais Artificiais
 ...
 
 
+# Artigo 
+ 
+[Characterising Neutrality in Neural Network Error Landscapes](artigo.md)
 
 <!-- Videos
 
