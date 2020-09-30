@@ -11,6 +11,8 @@
 - [NEUTRALITY MEASURES FOR DISCRETE SPACES](#neutrality-measures-for-discrete-spaces)
 - [QUANTIFYING NEUTRALITY IN CONTINUOUS SPACES](#quantifying-neutrality-in-continuous-spaces)
   - [Neighbourhood and Neutrality](#neighbourhood-and-neutrality)
+  - [Sampling Method](#sampling-method)
+  - [Proposed Measures of Neutrality](#proposed-measures-of-neutrality)
 
 # ABSTRACT
 
@@ -95,4 +97,13 @@ Estruturas de 3 pontos conetem uam solução e seus vizinhos a direira e esquerd
 ## Neighbourhood and Neutrality
 
 > A neighbourhood is defined as all solutions within the hypercube with **x** as centre point and length of side **s**
+
+## Sampling Method
+
+Escolhe soluções aleatorias e roda o Random Walk nelas.
+
+## Proposed Measures of Neutrality
+
+1.  M1 - Proporção de estruturas neutras em W (resultado do ramdom walk)
+2.  M2 - Tamanho da maior subsequencia de regioes neutras em W (resultado do ramdom walk) dividido pelo tamanho da sequencia.
 
