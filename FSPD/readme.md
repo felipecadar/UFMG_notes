@@ -63,6 +63,10 @@
 
 
 ## Replicação e consistência
+
+1. [Replicação](aula-11a.md)
+1. [Modelos centrados nos dados](aula-11b.md)
+
 ## Replicação e consistência
 ## Tolerância a falhas
 ## Tolerância a falhas
