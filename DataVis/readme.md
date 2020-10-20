@@ -48,3 +48,11 @@
 ## Dados Multivariados
 
 [multivariados](multivariados.md)
+
+## Cores
+
+[cores](cores.md)
+
+## Técnicas de interação analítica
+
+[Técnicas de interação analíticaURL](interacao.md)

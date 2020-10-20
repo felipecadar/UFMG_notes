@@ -68,5 +68,10 @@
 1. [Modelos centrados nos dados](aula-11b.md)
 
 ## Replicação e consistência
+
+1. [consistência eventual](aula-11c.md)
+1. [modelos centrados nos clientes](aula-11d.md)
+1. [protocolos de consistência](aula-11e.md)
+
 ## Tolerância a falhas
 ## Tolerância a falhas
