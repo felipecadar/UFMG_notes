@@ -56,3 +56,7 @@
 ## Técnicas de interação analítica
 
 [Técnicas de interação analíticaURL](interacao.md)
+
+## Visualização de dados relacionais
+
+[Visualização de dados relacionais](dados-relacionais.md)
