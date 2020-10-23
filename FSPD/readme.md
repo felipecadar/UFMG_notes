@@ -73,5 +73,14 @@
 1. [modelos centrados nos clientes](aula-11d.md)
 1. [protocolos de consistência](aula-11e.md)
 
+## Tolerância a falhas I
+
+1. [conceitos básicos de tolerância a falhas](aula-12a.md)
+1. [modelos de falhas](aula-12b.md)
+1. [resiliência de processos e consenso](aula-12c.md)
+
 ## Tolerância a falhas
-## Tolerância a falhas
+
+1. [impossibilidades em sistemas distribuídos](aula-12d.md)
+1. [2PC (commit distribuído)](aula-12e.md)
+1. [recuperação de falhas (checkpointing)](aula-12f.md)
