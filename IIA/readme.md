@@ -1,2 +1,0 @@
-# Introdução a Inteligencia Artificial
-
