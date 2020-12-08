@@ -4,3 +4,4 @@
 - [Banco de Dados Geográficos](BancoDeDadosGeograficos/readme.md)
 - [Music Information Retrieval](MusicInformationRetrieval/readme.md)
 - [Processamento de Dados Massivos em Nuvem](ProcessamentodeDadosMassivosemNuvem/readme.md)
+- [Testes de Software](TestesdeSoftware/readme.md)
