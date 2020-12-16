@@ -90,10 +90,3 @@ Escolha uma:
 4. Quantas vezes a fixture será executada?
 
 ![img](../imgs/test1.png)
-
-```
-1. De unidade
-2. Os testes são simples, determinísticos e (provavelmente) muito rápidos. Além de testarem entidades independentes.
-3. o método setUp criando os objetos Text
-4. 9 vezes, uma para cada função de teste.
-```
