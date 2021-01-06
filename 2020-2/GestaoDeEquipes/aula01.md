@@ -1,0 +1,49 @@
+Paradigmas:
+
+- Vermelho: 
+  - UM indivíduo dominante
+  - Não escalável
+  - sem hierasquia
+  - força e poder
+  - premios e puniçoes
+  - Ex: Máfias
+- Ambar:
+   -  Mais hierárquicos
+   -  long term goals
+   -  estabilidade
+   -  processos bem definidos
+   -  Burocracia
+   -  Autoridade atribuida a um cargo, não a uma pessoa
+   -  Ex: Escolas publicas, igrejas, exércitos
+- Laranja:
+  - Competição
+  - Lucro
+  - **Inovação**
+  - Indivíduos podem subir dentro da organização perseguindo seus objetivos na vida
+  - **Meritocracia**. Sucesso social.
+  - Limita o indivíduo quando não se tem mais prospectivas de ganho
+  - Uma boa decisão é uma decisão efetiva, se livrando dos processos
+  - Reina o pensamento científico.
+  - Organização é uma máquina e cada pessoa tem um lugar certo.
+  - Ex: Maior parte da sociedade hoje
+- Verde:
+  - Valores.
+  - Existe mais do que sucesso e fracasso.
+  - Consenso entre os indivíduos.
+  - Igualitarismo
+  - Dificíl de escalar a organização
+  - Feedback 360, sou avalidado por quem eu gerencio e pelos meus gerentes
+  - Todos podem trazer decisoes e ideias diferentes.
+  - A organização é uma família
+  - Multiplos acionistas tratados igualmente
+  - Ex: BenAndJerrys 
+- Teal (Verde-azulado):
+  - Propósito maior
+  - Uma decisão pode ser tomada se escutamos os conselhos de todos que ela vai impactar (diferente de consenso, consentimento)
+  - Se assemelha a um organismo
+  - Auto-gestão
+  - O propósito evolui com o tempo
+  - Todos os paradigmas podem ser uteis dependendo da situação
+  - Tudo ajudou a evoluir até o agora
+  - Ex: Patagonia (roupas)
+  - 
