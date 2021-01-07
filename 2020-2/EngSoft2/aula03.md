@@ -51,5 +51,10 @@
 
 # Código Limpo: Classes
 
-- Organizaçao
-  - 
+- Pequenas
+- Única responsabilidade
+  - Apenas uma razão para ser alterada
+  
+
+- Classes com baixa coesao devem ser divididas em classes menores, e mais coesas.
+- Quebrar métodos longos tambem podem gerar classes coesas
