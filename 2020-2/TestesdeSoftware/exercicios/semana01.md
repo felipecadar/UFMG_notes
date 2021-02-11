@@ -1,15 +1,4 @@
-- [Analisando as afirmativas sobre Testes de Software, é INCORRETO afirmar que:](#analisando-as-afirmativas-sobre-testes-de-software-é-incorreto-afirmar-que)
-- [A Pirâmide de Testes classifica os testes em: Testes de Unidade, Testes de Integração e Testes de Sistema. Testes de Unidade estão localizados no topo, enquanto Testes de Sistema na base da pirâmide.](#a-pirâmide-de-testes-classifica-os-testes-em-testes-de-unidade-testes-de-integração-e-testes-de-sistema-testes-de-unidade-estão-localizados-no-topo-enquanto-testes-de-sistema-na-base-da-pirâmide)
-- [Código sem teste possui baixa qualidade, pois não temos como garantir que regressões não foram inseridas no sistema após a realização de uma modificação no código.](#código-sem-teste-possui-baixa-qualidade-pois-não-temos-como-garantir-que-regressões-não-foram-inseridas-no-sistema-após-a-realização-de-uma-modificação-no-código)
-- [O único objetivo do Teste de Software é evitar que erros cheguem aos usuários finais.](#o-único-objetivo-do-teste-de-software-é-evitar-que-erros-cheguem-aos-usuários-finais)
-- [Sobre Teste de Unidade, é CORRETO afirmar:](#sobre-teste-de-unidade-é-correto-afirmar)
-- [A fixture do teste "fixa" o estado do sistema que será testado pelos métodos de teste. A fixture é executada apenas uma vez para cada classe de teste.](#a-fixture-do-teste-fixa-o-estado-do-sistema-que-será-testado-pelos-métodos-de-teste-a-fixture-é-executada-apenas-uma-vez-para-cada-classe-de-teste)
-- [Classes de testes devem seguir algumas convenções. Por exemplo, classes de testes devem possuir o prefixo "Test", enquanto métodos de testes devem começar com o prefixo "test".](#classes-de-testes-devem-seguir-algumas-convenções-por-exemplo-classes-de-testes-devem-possuir-o-prefixo-test-enquanto-métodos-de-testes-devem-começar-com-o-prefixo-test)
-- [O SUT representa o sistema que está sendo testado.](#o-sut-representa-o-sistema-que-está-sendo-testado)
-- [Testes de unidade são testes automatizados de pequenas unidades de código (ex: classes, métodos, funções, etc) que são testadas de forma independente do sistema.](#testes-de-unidade-são-testes-automatizados-de-pequenas-unidades-de-código-ex-classes-métodos-funções-etc-que-são-testadas-de-forma-independente-do-sistema)
-- [Um dos benefícios do Teste de unidade é encontrar bugs após o sistema entrar em produção.](#um-dos-benefícios-do-teste-de-unidade-é-encontrar-bugs-após-o-sistema-entrar-em-produção)
-  
-  
+
 # Analisando as afirmativas sobre Testes de Software, é INCORRETO afirmar que:
 
 Escolha uma:

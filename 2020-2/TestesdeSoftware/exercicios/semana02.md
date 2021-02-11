@@ -1,25 +1,3 @@
-- [Sobre Testes de Integração, é CORRETO afirmar:](#sobre-testes-de-integração-é-correto-afirmar)
-- [Testes de integração testam unidades dos sistemas de forma independente.](#testes-de-integração-testam-unidades-dos-sistemas-de-forma-independente)
-- [Testes de sistema focam na uso do sistema sob o ponto de vista do usuário. Logo, tais testes são mais baratos, rápidos e robustos.](#testes-de-sistema-focam-na-uso-do-sistema-sob-o-ponto-de-vista-do-usuário-logo-tais-testes-são-mais-baratos-rápidos-e-robustos)
-- [Sobre teste de software, marque a alternativa CORRETA:](#sobre-teste-de-software-marque-a-alternativa-correta)
-- [A verificação testa se fizemos o sistema corretamente, isto é, de acordo com a sua especificação/requisitos.](#a-verificação-testa-se-fizemos-o-sistema-corretamente-isto-é-de-acordo-com-a-sua-especificaçãorequisitos)
-- [Teste de aceitação ocorre quando o sistema é modificado ou novo módulo é adicionado.](#teste-de-aceitação-ocorre-quando-o-sistema-é-modificado-ou-novo-módulo-é-adicionado)
-- [Teste de unidade/integração/sistema faz a validação, enquanto teste de aceitação a verificação.](#teste-de-unidadeintegraçãosistema-faz-a-validação-enquanto-teste-de-aceitação-a-verificação)
-- [Testes Caixa Branca são escritos sem o conhecimento do código.](#testes-caixa-branca-são-escritos-sem-o-conhecimento-do-código)
-- [Testes Caixa Preta são escritos com base apenas na interface do sistema sob testes.](#testes-caixa-preta-são-escritos-com-base-apenas-na-interface-do-sistema-sob-testes)
-- [Testes de Aceitação determina se o cliente está de acordo ou não com a implementação realizada.](#testes-de-aceitação-determina-se-o-cliente-está-de-acordo-ou-não-com-a-implementação-realizada)
-- [Analisando as afirmativas sobre o princípio FIRST, é INCORRETO afirmar:](#analisando-as-afirmativas-sobre-o-princípio-first-é-incorreto-afirmar)
-- [A ordem de execução dos testes unidade é importante e deve ser considerada pelo desenvolvedor. Por exemplo, um teste de unidade TA pode alterar alguma parte do estado global do sistema que será consumida por um teste TB, logo TA deve rodado após TB.](#a-ordem-de-execução-dos-testes-unidade-é-importante-e-deve-ser-considerada-pelo-desenvolvedor-por-exemplo-um-teste-de-unidade-ta-pode-alterar-alguma-parte-do-estado-global-do-sistema-que-será-consumida-por-um-teste-tb-logo-ta-deve-rodado-após-tb)
-- [As propriedades do princípio FIRST são: rápidos, independentes, determinísticos, auto-verificáveis e escritos o quanto antes.](#as-propriedades-do-princípio-first-são-rápidos-independentes-determinísticos-auto-verificáveis-e-escritos-o-quanto-antes)
-- [Devemos buscar testes pequenos e focados, com nomes legíveis, para melhorar o diagnóstico do teste.](#devemos-buscar-testes-pequenos-e-focados-com-nomes-legíveis-para-melhorar-o-diagnóstico-do-teste)
-- [Devemos nomear os métodos de testes em termos de funcionalidades que o objeto alvo fornece.](#devemos-nomear-os-métodos-de-testes-em-termos-de-funcionalidades-que-o-objeto-alvo-fornece)
-- [Métodos asserts geralmente possuem uma versão onde é possível indicar a mensagem apresentada em caso de falha.](#métodos-asserts-geralmente-possuem-uma-versão-onde-é-possível-indicar-a-mensagem-apresentada-em-caso-de-falha)
-- [Os fatores que tornam o teste limpo são diferentes dos que tornam o código de produção limpo.](#os-fatores-que-tornam-o-teste-limpo-são-diferentes-dos-que-tornam-o-código-de-produção-limpo)
-- [Os nomes dos testes devem não descrever funcionalidades.](#os-nomes-dos-testes-devem-não-descrever-funcionalidades)
-- [Para facilitar o entendimento do teste, devemos sempre escrever um assert por método de teste.](#para-facilitar-o-entendimento-do-teste-devemos-sempre-escrever-um-assert-por-método-de-teste)
-- [Uma falha deve claramente indicar o que falhou e porque. Desse modo, podemos rapidamente diagnosticar e corrigir o código.](#uma-falha-deve-claramente-indicar-o-que-falhou-e-porque-desse-modo-podemos-rapidamente-diagnosticar-e-corrigir-o-código)
-
-
 # Sobre Testes de Integração, é CORRETO afirmar: 
 
 Escolha uma:
