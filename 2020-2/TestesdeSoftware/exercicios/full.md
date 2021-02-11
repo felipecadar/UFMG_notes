@@ -164,10 +164,7 @@ Escolha uma opção:
 
 A resposta correta é 'Verdadeiro'.
 
-# 
-
-
-Dummy trata de objetos que são passados mas nunca utilizados.
+# Dummy trata de objetos que são passados mas nunca utilizados.
 
 Escolha uma opção:
 - Verdadeiro
